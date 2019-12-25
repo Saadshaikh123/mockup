@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+ul h1{
+    margin-top: 0px;
+    margin-right: 31%;
+    font-size: 17px;
+    color: #EF9612;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+
+span{
+    font-size: 17px;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+}
+nav ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px 10px;
+    width: 98.5%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #3D9AE9;
+}
+
+li a{
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 1em;
+    color:  #E5F2FE;
+}
+li{
+    list-style: none;
+    font-weight: 400px;
+    font-family: sans-serif
+}
+
+.contact{
+    padding: 10px 12px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+#main{
+    margin-top: 0px;
+    display: flex;
+    background-color: #3D9AE9;
+    justify-content: space-evenly;
+}
+.content h1{
+    color: #E5F2FE;
+    font-size: 5rem;
+    font-family: 'Patua One', cursive;
+}
+.content h3{
+    color: #E5F2FE;
+    font-size: 2em;
+    font-family: 'Karla', sans-serif;
+}
+.content p{
+    color: #E5F2FE;
+    font-family: cursive;
+    font-family: 'Muli', sans-serif;
+    font-size: 1em;
+}
+.content img{
+    height: 50px;
+    width: 50px;
+    padding-bottom: 23%;
+}
+.content button{
+    background-color: #EF9612;
+    color: white;
+    border: none;
+    height: 8%;
+    width: 35%;
+    border-radius: 10px;
+    margin: 5% 0px;
+}
+
+.image{
+    margin-top: 2%;
+    position: relative;
+}
+
+.image .img1{
+    height: 65%;
+    max-width: 200px;
+    transform: rotate(30deg);
+    z-index: 1;
+    position: absolute;
+    margin-top: 7em;
+    margin-left: -11em
+}
+
+.image .img2{
+    max-width: 200px;
+    transform: rotate(-15deg);
+    position: absolute;
+    z-index: 0;
+}
